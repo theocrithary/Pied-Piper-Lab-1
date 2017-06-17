@@ -61,4 +61,4 @@ def details(session_id):
     return response
 
 if __name__ == "__main__":
-	app.run(debug=False,host='localhost', port=int(os.getenv('PORT', '5000')))
+	app.run(debug=False,host='localhost', port=int(os.getenv('PORT', '8080')))
